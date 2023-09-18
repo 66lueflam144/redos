@@ -1,4 +1,5 @@
 这个b让我觉得有必要记录一下。
+## 1
 当我按照之前套路走后，回显`文件名不能含ph`，于是又上传了png文件，结果来句`太露骨`。。。
 不过尝试jpg文件成功上传。
 
@@ -26,6 +27,7 @@ GIF89a//可有可无
 `https://xxx/upload/2b4099bc206448afdc0ffdf443242c6c/shell.jpg`，接下来same就可以得到flag。
 
 ---
+## 2
 参考：
 <a href=https://www.cnblogs.com/PsgQ/p/14573972.html#/c/subject/p/14573972.html>PS5</a>
 

