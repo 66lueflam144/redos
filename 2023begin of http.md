@@ -1,0 +1,1 @@
+虽然现在还没怎么解开，但是很神奇，我随手删了cookie那一列之后再发送请求，然后又加上cookie发送请求，前者是首界面，后者是乱码配`bad request your browser sent a request theis server caould not understand.`
